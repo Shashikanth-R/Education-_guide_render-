@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pink background -->
+  <rect width="200" height="200" fill="#E85B8A"/>
+  
+  <!-- Palette -->
+  <circle cx="100" cy="100" r="40" fill="none" stroke="white" stroke-width="2.5"/>
+  <circle cx="85" cy="85" r="6" fill="white"/>
+  <circle cx="115" cy="85" r="6" fill="white"/>
+  <circle cx="75" cy="105" r="6" fill="white"/>
+  <circle cx="125" cy="105" r="6" fill="white"/>
+  
+  <!-- Music note -->
+  <circle cx="100" cy="120" r="5" fill="white"/>
+  <line x1="105" y1="120" x2="105" y2="90" stroke="white" stroke-width="2"/>
+  
+  <!-- Running figure -->
+  <circle cx="110" cy="75" r="4" fill="white"/>
+  <line x1="110" y1="80" x2="110" y2="95" stroke="white" stroke-width="1.5"/>
+  <line x1="105" y1="85" x2="115" y2="85" stroke="white" stroke-width="1.5"/>
+</svg>

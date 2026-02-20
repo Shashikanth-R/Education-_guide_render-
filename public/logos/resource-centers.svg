@@ -1,0 +1,21 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Purple background -->
+  <rect width="200" height="200" fill="#7B5BA8"/>
+  
+  <!-- Circle border -->
+  <circle cx="100" cy="100" r="45" fill="none" stroke="white" stroke-width="2.5"/>
+  
+  <!-- Computer/Monitor -->
+  <rect x="65" y="70" width="35" height="25" fill="none" stroke="white" stroke-width="2"/>
+  <rect x="70" y="75" width="25" height="15" fill="none" stroke="white" stroke-width="1"/>
+  <rect x="80" y="97" width="15" height="3" fill="white"/>
+  
+  <!-- Gears -->
+  <circle cx="115" cy="85" r="8" fill="none" stroke="white" stroke-width="1.5"/>
+  <line x1="115" y1="77" x2="115" y2="93" stroke="white" stroke-width="1"/>
+  <line x1="107" y1="85" x2="123" y2="85" stroke="white" stroke-width="1"/>
+  
+  <circle cx="125" cy="105" r="6" fill="none" stroke="white" stroke-width="1.5"/>
+  <line x1="125" y1="99" x2="125" y2="111" stroke="white" stroke-width="1"/>
+  <line x1="119" y1="105" x2="131" y2="105" stroke="white" stroke-width="1"/>
+</svg>

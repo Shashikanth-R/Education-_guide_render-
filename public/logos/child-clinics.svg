@@ -1,0 +1,18 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Teal background -->
+  <rect width="200" height="200" fill="#4DBFBF"/>
+  
+  <!-- Circle border -->
+  <circle cx="100" cy="100" r="45" fill="none" stroke="white" stroke-width="2.5"/>
+  
+  <!-- Hospital building -->
+  <rect x="70" y="75" width="60" height="50" fill="none" stroke="white" stroke-width="2"/>
+  
+  <!-- Cross/Plus sign -->
+  <line x1="100" y1="80" x2="100" y2="120" stroke="white" stroke-width="3"/>
+  <line x1="80" y1="100" x2="120" y2="100" stroke="white" stroke-width="3"/>
+  
+  <!-- Windows -->
+  <rect x="75" y="80" width="8" height="8" fill="none" stroke="white" stroke-width="1"/>
+  <rect x="117" y="80" width="8" height="8" fill="none" stroke="white" stroke-width="1"/>
+</svg>

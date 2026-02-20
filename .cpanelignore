@@ -1,0 +1,15 @@
+# Files/folders to EXCLUDE when uploading to cPanel
+# Use this as a reference for what NOT to upload via File Manager / FTP
+
+.git/
+.gitignore
+.next/cache/
+node_modules/
+*.log
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+.qodo/
+KGs.json
+Private_School.json
+.env.production.example
+README.md

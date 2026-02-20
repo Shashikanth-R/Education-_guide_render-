@@ -1,0 +1,64 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Business {
+  id          String   @id @default(uuid())
+  name        String
+  category    String
+  description String   @db.Text
+  phone       String
+  email       String
+  address     String
+  city        String
+  latitude    Float    @default(0)
+  longitude   Float    @default(0)
+  images      String   @db.Text  // PostgreSQL uses @db.Text for long strings
+  coverImage  String?  @db.Text  // PostgreSQL uses @db.Text for long strings
+  workingHours String  @db.Text
+  priceRange  String   @default("$$")
+  featured    Boolean  @default(false)
+  verified    Boolean  @default(false)
+  rating      Float    @default(0)
+  reviewCount Int      @default(0)
+  viewCount   Int      @default(0)
+  createdAt   DateTime @default(now())
+
+  reviews     Review[]
+
+  @@map("businesses")
+}
+
+model Review {
+  id          String   @id @default(uuid())
+  businessId  String
+  business    Business @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  userName    String
+  rating      Int
+  comment     String   @db.Text
+  helpful     Int      @default(0)
+  approved    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+
+  @@map("reviews")
+}
+
+model ContactSubmission {
+  id        String   @id @default(uuid())
+  name      String
+  email     String
+  subject   String
+  message   String   @db.Text
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@map("contact_submissions")
+}

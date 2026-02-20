@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue background -->
+  <rect width="200" height="200" fill="#4A90E2"/>
+  
+  <!-- Uniform/Shirt -->
+  <path d="M 70 60 L 70 100 L 60 120 L 140 120 L 130 100 L 130 60 Z" fill="none" stroke="white" stroke-width="2.5"/>
+  
+  <!-- Collar -->
+  <line x1="85" y1="60" x2="100" y2="75" stroke="white" stroke-width="2"/>
+  <line x1="115" y1="60" x2="100" y2="75" stroke="white" stroke-width="2"/>
+  
+  <!-- Buttons -->
+  <circle cx="100" cy="75" r="3" fill="white"/>
+  <circle cx="100" cy="90" r="3" fill="white"/>
+  <circle cx="100" cy="105" r="3" fill="white"/>
+  
+  <!-- Sleeves -->
+  <line x1="70" y1="70" x2="50" y2="80" stroke="white" stroke-width="2.5"/>
+  <line x1="130" y1="70" x2="150" y2="80" stroke="white" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue background -->
+  <rect width="200" height="200" fill="#2E5A8C"/>
+  
+  <!-- Circle border -->
+  <circle cx="100" cy="100" r="50" fill="none" stroke="white" stroke-width="3"/>
+  
+  <!-- Open book -->
+  <path d="M 75 85 Q 75 100 85 105 Q 100 110 100 110 Q 100 110 115 105 Q 125 100 125 85" fill="none" stroke="white" stroke-width="2.5"/>
+  <line x1="100" y1="85" x2="100" y2="110" stroke="white" stroke-width="2"/>
+  
+  <!-- Book pages -->
+  <path d="M 85 90 Q 90 95 95 95" fill="none" stroke="white" stroke-width="1.5"/>
+  <path d="M 105 95 Q 110 95 115 90" fill="none" stroke="white" stroke-width="1.5"/>
+</svg>

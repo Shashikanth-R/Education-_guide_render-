@@ -1,0 +1,556 @@
+{
+  "Sports Facilities": [
+    {
+      "No": "",
+      "Telephone": "17277712",
+      "Fax": "",
+      "Area": "Zinj",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Al Ahli Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "39953876",
+      "Fax": "",
+      "Area": "Busaiteen",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Al Busaiteen Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17795888",
+      "Fax": "",
+      "Area": "Hamad Town",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Al Ettifaq Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17404707",
+      "Fax": "",
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Al Ettihad Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17345352",
+      "Fax": "",
+      "Area": "Muharraq",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Al Hala Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17672598",
+      "Fax": "",
+      "Area": "Hidd",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Al Hidd Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17007009",
+      "Fax": "",
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Al Najma Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "39137219",
+      "Fax": "",
+      "Area": "Jidhafs",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Al Shabab Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17210097",
+      "Fax": "",
+      "Area": "Hamala",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Al Tadhamun Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17331558",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Bahrain Club"
+    },
+    {
+      "No": "",
+      "Telephone": "33417919",
+      "Fax": "",
+      "Area": "Busaiteen",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Bahrain Club Football Ground"
+    },
+    {
+      "No": "",
+      "Telephone": "17176930",
+      "Fax": 17176931.0,
+      "Area": "Riffa",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Bahrain Disabled Sports Federation"
+    },
+    {
+      "No": "",
+      "Telephone": "17450000",
+      "Fax": 17451114.0,
+      "Area": "Sakhir",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Bahrain International Circuit"
+    },
+    {
+      "No": "",
+      "Telephone": "17452000",
+      "Fax": 17452020.0,
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Bahrain Motor Federation BMF"
+    },
+    {
+      "No": "",
+      "Telephone": "17821200",
+      "Fax": 17821201.0,
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Bahrain Olympic Committee"
+    },
+    {
+      "No": "",
+      "Telephone": "17331558",
+      "Fax": "",
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Bahrain Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17680867",
+      "Fax": 17780939.0,
+      "Area": "Isa Town",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Bahrain Swimming Association (BSA)"
+    },
+    {
+      "No": "",
+      "Telephone": "17729561",
+      "Fax": 17729374.0,
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Bahrain Tennis Club"
+    },
+    {
+      "No": "",
+      "Telephone": "17700677",
+      "Fax": 17701797.0,
+      "Area": "Sitra",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Bahrain Yacht Club"
+    },
+    {
+      "No": "",
+      "Telephone": "36111316",
+      "Fax": "",
+      "Area": "Saar",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Black Castle Academy"
+    },
+    {
+      "No": "",
+      "Telephone": "33290290",
+      "Fax": "",
+      "Area": "Budaiya",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Budaiya Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "32166009",
+      "Fax": "",
+      "Area": "Jannusan",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Champions Football Academy"
+    },
+    {
+      "No": "",
+      "Telephone": "36606407",
+      "Fax": "",
+      "Area": "Saar",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Creators Academy"
+    },
+    {
+      "No": "",
+      "Telephone": "17778082",
+      "Fax": "",
+      "Area": "East Riffa",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "East Riffa Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17725221",
+      "Fax": 17721342.0,
+      "Area": "Umm Al Hassam",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Euro Sports Centre"
+    },
+    {
+      "No": "",
+      "Telephone": "36080107",
+      "Fax": "",
+      "Area": "Galali",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Galali soccer complex"
+    },
+    {
+      "No": "",
+      "Telephone": "17114000",
+      "Fax": "",
+      "Area": "Galali",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Galali Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17810872",
+      "Fax": 17813300.0,
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "General Organisation for Youth & Sports"
+    },
+    {
+      "No": "",
+      "Telephone": "35980111",
+      "Fax": "",
+      "Area": "Salmabad",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Gro Gym & Sports Academy"
+    },
+    {
+      "No": "",
+      "Telephone": "17784224",
+      "Fax": "",
+      "Area": "Isa Town",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Isa Town Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "37130107",
+      "Fax": "",
+      "Area": "Muharraq",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Juventus Academy RCSI Muharraq"
+    },
+    {
+      "No": "",
+      "Telephone": "17612825",
+      "Fax": "",
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Karting 4 Me"
+    },
+    {
+      "No": "",
+      "Telephone": "39637294",
+      "Fax": "",
+      "Area": "Busaiteen",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Kings football academy"
+    },
+    {
+      "No": "",
+      "Telephone": "17630633",
+      "Fax": "",
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Malkiya Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17729800",
+      "Fax": "",
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Manama Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17114000",
+      "Fax": 17114422.0,
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Ministry of Youth and Sports"
+    },
+    {
+      "No": "",
+      "Telephone": "17125000",
+      "Fax": 17125199.0,
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "MotorSport Middle East"
+    },
+    {
+      "No": "",
+      "Telephone": "",
+      "Fax": "",
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Muharraq Future Soccer Academy"
+    },
+    {
+      "No": "",
+      "Telephone": "17670133",
+      "Fax": "",
+      "Area": "Muharraq",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Muharraq Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "36646987",
+      "Fax": "",
+      "Area": "Salmabad",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Noor Sports Academy"
+    },
+    {
+      "No": "",
+      "Telephone": "39997787",
+      "Fax": "",
+      "Area": "Isa Town",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Ole Football Academy"
+    },
+    {
+      "No": "",
+      "Telephone": "17290600",
+      "Fax": "",
+      "Area": "Hoora",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Olympics Sports and Grill"
+    },
+    {
+      "No": "",
+      "Telephone": "33233979",
+      "Fax": "",
+      "Area": "Salmabad",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Pro Football Academy Bahrain"
+    },
+    {
+      "No": "",
+      "Telephone": "17656969",
+      "Fax": 17667713.0,
+      "Area": "West Riffa",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Riffa Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "17750777",
+      "Fax": 17750756.0,
+      "Area": "Riffa",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Royal Golf Club"
+    },
+    {
+      "No": "",
+      "Telephone": "17586612",
+      "Fax": 17580333.0,
+      "Area": "Manama",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Royal Sporting Club"
+    },
+    {
+      "No": "",
+      "Telephone": "17730005",
+      "Fax": "",
+      "Area": "Sitra",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Sitra Sports Club "
+    },
+    {
+      "No": "",
+      "Telephone": "33193060",
+      "Fax": "",
+      "Area": "Janabiya",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Soccer Stars Academy & Stadiums"
+    },
+    {
+      "No": "",
+      "Telephone": "17177117",
+      "Fax": 17177110.0,
+      "Area": "Seef",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Supreme Council for Youth & Sports"
+    },
+    {
+      "No": "",
+      "Telephone": "33843416",
+      "Fax": "",
+      "Area": "Riffa",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Tekkers Football Academy - Riffa"
+    },
+    {
+      "No": "",
+      "Telephone": "77300000",
+      "Fax": "",
+      "Area": "Saar",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Tfa bahrain"
+    },
+    {
+      "No": "",
+      "Telephone": "38885655",
+      "Fax": "",
+      "Area": "Zallaq",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "The Crag Rock Climbing "
+    },
+    {
+      "No": "",
+      "Telephone": "38085535",
+      "Fax": "",
+      "Area": "Isa Town",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": "Winners Football Center"
+    },
+    {
+      "No": 56.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 57.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 58.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 59.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 60.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 61.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 62.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 63.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 64.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 65.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 66.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 67.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 68.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 69.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 70.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    },
+    {
+      "No": 71.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Category": "Sports Facilities",
+      "Sports & Games Training Facilities": ""
+    }
+  ]
+}

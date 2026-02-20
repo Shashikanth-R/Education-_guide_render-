@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue background -->
+  <rect width="200" height="200" fill="#2E7DB8"/>
+  
+  <!-- Sun -->
+  <circle cx="60" cy="50" r="20" fill="#FFD700"/>
+  <line x1="60" y1="15" x2="60" y2="5" stroke="#FFD700" stroke-width="3"/>
+  <line x1="60" y1="85" x2="60" y2="95" stroke="#FFD700" stroke-width="3"/>
+  <line x1="95" y1="50" x2="105" y2="50" stroke="#FFD700" stroke-width="3"/>
+  <line x1="25" y1="50" x2="15" y2="50" stroke="#FFD700" stroke-width="3"/>
+  <line x1="85" y1="25" x2="92" y2="18" stroke="#FFD700" stroke-width="3"/>
+  <line x1="28" y1="82" x2="21" y2="89" stroke="#FFD700" stroke-width="3"/>
+  <line x1="92" y1="82" x2="85" y2="89" stroke="#FFD700" stroke-width="3"/>
+  <line x1="35" y1="25" x2="28" y2="18" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- Teddy bear -->
+  <circle cx="110" cy="60" r="25" fill="#87CEEB"/>
+  <circle cx="95" cy="45" r="8" fill="#87CEEB"/>
+  <circle cx="125" cy="45" r="8" fill="#87CEEB"/>
+  <circle cx="100" cy="65" r="6" fill="#000"/>
+  <circle cx="120" cy="65" r="6" fill="#000"/>
+  
+  <!-- A C letters -->
+  <text x="50" y="140" font-size="24" font-weight="bold" fill="white" text-anchor="middle">A</text>
+  <text x="100" y="140" font-size="24" font-weight="bold" fill="white" text-anchor="middle">C</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cyan background -->
+  <rect width="200" height="200" fill="#4DBFBF"/>
+  
+  <!-- Circle border -->
+  <circle cx="100" cy="100" r="45" fill="none" stroke="white" stroke-width="2.5"/>
+  
+  <!-- Soccer ball -->
+  <circle cx="80" cy="85" r="12" fill="none" stroke="white" stroke-width="1.5"/>
+  <line x1="80" y1="73" x2="80" y2="97" stroke="white" stroke-width="1"/>
+  <line x1="68" y1="85" x2="92" y2="85" stroke="white" stroke-width="1"/>
+  
+  <!-- Whistle -->
+  <rect x="105" y="75" width="8" height="15" fill="white" rx="2"/>
+  <circle cx="109" cy="92" r="4" fill="white"/>
+  
+  <!-- Stopwatch -->
+  <circle cx="85" cy="120" r="10" fill="none" stroke="white" stroke-width="1.5"/>
+  <line x1="85" y1="115" x2="85" y2="120" stroke="white" stroke-width="1"/>
+  <line x1="85" y1="120" x2="92" y2="120" stroke="white" stroke-width="1"/>
+  
+  <!-- Trophy -->
+  <polygon points="115,110 120,100 125,110 125,125 105,125 105,110" fill="none" stroke="white" stroke-width="1.5"/>
+</svg>

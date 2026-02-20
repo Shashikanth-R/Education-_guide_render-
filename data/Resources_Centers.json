@@ -1,0 +1,323 @@
+{
+  "Resources Centers": [
+    {
+      "No": 1.0,
+      "Telephone": "77066680",
+      "Fax": 77066686.0,
+      "Area": "Hidd",
+      "Email": "hiddm.almaarifa@hotmail.com",
+      "PO Box": 34.0,
+      "Address": "Building: 290, Road: 208, Block: 102, Area: HIDD, Governorate: MUHARRAQ",
+      "Category": "Resources Centers",
+      "Resources Centers": "Alhidd Knowledge Resources Center"
+    },
+    {
+      "No": 2.0,
+      "Telephone": "17550857",
+      "Fax": 17550863.0,
+      "Area": "Jad Hafs",
+      "Email": "sanabism.almaarifa@hotmail.com",
+      "PO Box": 34.0,
+      "Address": "Building: 341, Road: 812, Block: 408, Area: JAD HAFS, Governorate: CAPITAL",
+      "Category": "Resources Centers",
+      "Resources Centers": "Alsanabis Knowledge Resources Center"
+    },
+    {
+      "No": 3.0,
+      "Telephone": "17672440",
+      "Fax": 17465973.0,
+      "Area": "Muharraq",
+      "Email": "aradm_almaarifa@hotmail.com",
+      "PO Box": 34.0,
+      "Address": "Building: 124, Road: 4006, Block: 240, Area: MUHARAQ, Governorate: MUHARRAQ",
+      "Category": "Resources Centers",
+      "Resources Centers": "Arad Knowledge Resources Center"
+    },
+    {
+      "No": 4.0,
+      "Telephone": "17274893",
+      "Fax": "",
+      "Area": "Manama",
+      "Email": "",
+      "PO Box": 34.0,
+      "Address": "Building: 29, Road: Khaled Bin Al-Waleed Avenue, Block: 308, Area: MANAMA, Governorate: CAPITAL",
+      "Category": "Resources Centers",
+      "Resources Centers": "Bahraini Book Legal Deposit Hall"
+    },
+    {
+      "No": 5.0,
+      "Telephone": "17681158",
+      "Fax": 17685312.0,
+      "Area": "Isa Town",
+      "Email": "isatownm.almaarifa@hotmail.com",
+      "PO Box": 34.0,
+      "Address": "Building: 3604, Road: ALQUDS AVE., Block: 809, Area: ISA TOWN, Governorate: SOUTHERN",
+      "Category": "Resources Centers",
+      "Resources Centers": "Isa Town Knowledge Resources Center"
+    },
+    {
+      "No": 6.0,
+      "Telephone": "17590063",
+      "Fax": 17590718.0,
+      "Area": "Jad Hafs",
+      "Email": "jidhafsm.almaarifa@hotmail.com",
+      "PO Box": 34.0,
+      "Address": "Building: 1137, Road: BUDAYEA AVE., Block: 431, Area: JAD HAFS, Governorate: NORTHERN",
+      "Category": "Resources Centers",
+      "Resources Centers": "Jidd Hafs Knowledge Resources Center"
+    },
+    {
+      "No": 7.0,
+      "Telephone": "17258550",
+      "Fax": "",
+      "Area": "Jad Hafs",
+      "Email": "m.m.almaarifa@hotmail.com",
+      "PO Box": 34.0,
+      "Address": "Building: 29, Road: Khaled Bin Al-Waleed Avenue, Block: 308, Area: MANAMA, Governorate: CAPITAL",
+      "Category": "Resources Centers",
+      "Resources Centers": "Manama Knowledge Resources Center"
+    },
+    {
+      "No": 8.0,
+      "Telephone": "17320017",
+      "Fax": 17331035.0,
+      "Area": "Muharraq",
+      "Email": "muharraqm.almaarifa@hotmail.com",
+      "PO Box": 34.0,
+      "Address": "Building: 30, Road: 8, Block: 225, Area: MUHARAQ, Governorate: MUHARRAQ",
+      "Category": "Resources Centers",
+      "Resources Centers": "National Bank Of Bahrain Knowledge Resources Center"
+    },
+    {
+      "No": 9.0,
+      "Telephone": "77047771",
+      "Fax": 77047772.0,
+      "Area": "Riffa",
+      "Email": "riffam.almaarifa@hotmail.com",
+      "PO Box": 34.0,
+      "Address": "Building: 24, Road: 1401, Block: 914, Area: RIFAA, Governorate: SOUTHERN",
+      "Category": "Resources Centers",
+      "Resources Centers": "Raffa Knowledge Resources Center"
+    },
+    {
+      "No": 10.0,
+      "Telephone": "17730463",
+      "Fax": 17732452.0,
+      "Area": "Sitra",
+      "Email": "sitram.almaarifa@hotmail.com",
+      "PO Box": 34.0,
+      "Address": "Building: 295, Road: 1, Block: 605, Area: SITRAA, Governorate: CAPITAL",
+      "Category": "Resources Centers",
+      "Resources Centers": "Sitra Knowledge Resources Center"
+    },
+    {
+      "No": 11.0,
+      "Telephone": "17274819",
+      "Fax": "",
+      "Area": "Manama",
+      "Email": "",
+      "PO Box": 34.0,
+      "Address": "Building: 29, Road: Khaled Bin Al-Waleed Avenue, Block: 308, Area: MANAMA, Governorate: CAPITAL",
+      "Category": "Resources Centers",
+      "Resources Centers": "Thesis Legal Deposit Hall"
+    },
+    {
+      "No": 12.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 13.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 14.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 15.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 16.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 17.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 18.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 19.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 20.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 21.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 22.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 23.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 24.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 25.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 26.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 27.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 28.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    },
+    {
+      "No": 29.0,
+      "Telephone": "",
+      "Fax": "",
+      "Area": "",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Resources Centers",
+      "Resources Centers": ""
+    }
+  ]
+}

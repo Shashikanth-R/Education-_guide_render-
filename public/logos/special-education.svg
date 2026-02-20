@@ -1,0 +1,19 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Purple background -->
+  <rect width="200" height="200" fill="#4A3B7F"/>
+  
+  <!-- Graduation cap -->
+  <polygon points="100,50 140,80 60,80" fill="none" stroke="white" stroke-width="2.5"/>
+  <rect x="60" y="80" width="80" height="8" fill="white"/>
+  
+  <!-- Tassel -->
+  <line x1="100" y1="88" x2="100" y2="110" stroke="white" stroke-width="2"/>
+  <circle cx="100" cy="115" r="5" fill="white"/>
+  
+  <!-- Books -->
+  <rect x="50" y="120" width="15" height="25" fill="none" stroke="white" stroke-width="2"/>
+  <rect x="70" y="115" width="15" height="30" fill="none" stroke="white" stroke-width="2"/>
+  <rect x="90" y="120" width="15" height="25" fill="none" stroke="white" stroke-width="2"/>
+  <rect x="110" y="115" width="15" height="30" fill="none" stroke="white" stroke-width="2"/>
+  <rect x="130" y="120" width="15" height="25" fill="none" stroke="white" stroke-width="2"/>
+</svg>

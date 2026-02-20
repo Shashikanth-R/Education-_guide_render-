@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 222.2 84% 4.9%;
+        --card: 0 0% 100%;
+        --card-foreground: 222.2 84% 4.9%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 222.2 84% 4.9%;
+
+        /* Pastel Color Palette */
+        --pastel-blue: 210 100% 90%;
+        --pastel-pink: 340 100% 92%;
+        --pastel-purple: 270 100% 92%;
+        --pastel-green: 120 60% 85%;
+        --pastel-yellow: 50 100% 88%;
+        --pastel-peach: 20 100% 90%;
+        --pastel-lavender: 260 60% 88%;
+        --pastel-mint: 150 50% 85%;
+
+        --primary: 210 100% 85%;
+        --primary-foreground: 215 50% 30%;
+        --secondary: 340 100% 92%;
+        --secondary-foreground: 340 50% 30%;
+        --muted: 210 40% 96.1%;
+        --muted-foreground: 215.4 16.3% 46.9%;
+        --accent: 270 100% 92%;
+        --accent-foreground: 270 50% 30%;
+        --destructive: 0 60% 80%;
+        --destructive-foreground: 0 50% 30%;
+        --border: 214.3 31.8% 91.4%;
+        --input: 214.3 31.8% 91.4%;
+        --ring: 210 100% 85%;
+        --radius: 0.5rem;
+    }
+
+    .dark {
+        --background: 222.2 84% 4.9%;
+        --foreground: 210 40% 98%;
+        --card: 222.2 84% 4.9%;
+        --card-foreground: 210 40% 98%;
+        --popover: 222.2 84% 4.9%;
+        --popover-foreground: 210 40% 98%;
+        --primary: 217.2 91.2% 59.8%;
+        --primary-foreground: 222.2 47.4% 11.2%;
+        --secondary: 217.2 32.6% 17.5%;
+        --secondary-foreground: 210 40% 98%;
+        --muted: 217.2 32.6% 17.5%;
+        --muted-foreground: 215 20.2% 65.1%;
+        --accent: 217.2 32.6% 17.5%;
+        --accent-foreground: 210 40% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 217.2 32.6% 17.5%;
+        --input: 217.2 32.6% 17.5%;
+        --ring: 224.3 76.3% 48%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+
+    /* Pastel Gradient Utilities */
+    .gradient-pastel-blue-pink {
+        background: linear-gradient(135deg, #E3F2FD 0%, #FCE4EC 100%);
+    }
+
+    .gradient-pastel-purple-blue {
+        background: linear-gradient(135deg, #F3E5F5 0%, #E1F5FE 100%);
+    }
+
+    .gradient-pastel-peach-yellow {
+        background: linear-gradient(135deg, #FFE0B2 0%, #FFF9C4 100%);
+    }
+
+    .gradient-pastel-mint-blue {
+        background: linear-gradient(135deg, #E0F2F1 0%, #E3F2FD 100%);
+    }
+
+    .gradient-pastel-lavender-pink {
+        background: linear-gradient(135deg, #EDE7F6 0%, #FCE4EC 100%);
+    }
+}
+
+/* Custom animations */
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes pulse-slow {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animate-shimmer {
+    animation: shimmer 2s infinite;
+    background: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+    background-size: 1000px 100%;
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+    animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient-shift 6s ease infinite;
+}
+
+@keyframes bounce-slow {
+    0%, 100% { transform: translateY(0px) scale(1); }
+    50% { transform: translateY(-16px) scale(1.05); }
+}
+
+.animate-bounce-slow {
+    animation: bounce-slow 3s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E3F2FD;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #BBDEFB;
+}
+
+/* Glass morphism effect with pastel colors */
+.glass-pastel {
+    background: rgba(227, 242, 253, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(227, 242, 253, 0.5);
+}
+
+/* Gradient text with pastel colors */
+.gradient-text-pastel {
+    background: linear-gradient(135deg, #90CAF9 0%, #CE93D8 50%, #F48FB1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

@@ -1,0 +1,312 @@
+{
+  "Universities": [
+    {
+      "Telephone": "17298999",
+      "Fax": 17290083.0,
+      "Area": "Manama",
+      "Email": "info@ahlia.edu.bh",
+      "PO Box": 10878.0,
+      "Address": "Building: 310, Road: 18",
+      "Category": "Universities",
+      "Website": "http://www.ahlia.edu.bh",
+      "Universities": "Ahlia University"
+    },
+    {
+      "Telephone": "17260798",
+      "Fax": "",
+      "Area": "Riffa",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "American University of Bahrain"
+    },
+    {
+      "Telephone": "17728777",
+      "Fax": 17728915.0,
+      "Area": "Eker",
+      "Email": "info@asu.edu.bh",
+      "PO Box": 5055.0,
+      "Address": "Building: 166, Road: 23, Block: 623, Area: SITRAA, Governorate: CAPITAL",
+      "Category": "Universities",
+      "Website": "http://www.asu.edu.bh",
+      "Universities": "Applied Science University"
+    },
+    {
+      "Telephone": "17407077",
+      "Fax": 17402548.0,
+      "Area": "Aali",
+      "Email": "student-affairs@aou.org.bh",
+      "PO Box": 18211.0,
+      "Address": "Building: 890, Road: 3220, Block: 732, Area: CENTRAL, Governorate: NORTHERN",
+      "Category": "Universities",
+      "Website": "http://www.aou.org.bh",
+      "Universities": "Arab Open University"
+    },
+    {
+      "Telephone": "17239999",
+      "Fax": 17272555.0,
+      "Area": "Salmaniya",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "Arabian Gulf University"
+    },
+    {
+      "Telephone": "17815555",
+      "Fax": 17729928.0,
+      "Area": "Manama",
+      "Email": "infodesk@bibf.com",
+      "PO Box": 20525.0,
+      "Address": "Building: 1456, Road: 4034, Block: 340, Area: MANAMA, Governorate: CAPITAL",
+      "Category": "Universities",
+      "Website": "http://www.bibf.com",
+      "Universities": "Bahrain Institute Of Banking And Finance"
+    },
+    {
+      "Telephone": "17897000",
+      "Fax": 17897009.0,
+      "Area": "Isa Town",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "Bahrain Polytechnic"
+    },
+    {
+      "Telephone": "17437015",
+      "Fax": 17449035.0,
+      "Area": "Sakheer",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "Bahrain Teacher's College"
+    },
+    {
+      "Telephone": "17130303",
+      "Fax": "",
+      "Area": "Saar",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "British University of Bahrain"
+    },
+    {
+      "Telephone": "17435000",
+      "Fax": "",
+      "Area": "Zallaq",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "College of Applied Studies"
+    },
+    {
+      "Telephone": "17438400",
+      "Fax": "",
+      "Area": "Zallaq",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "College of Arts"
+    },
+    {
+      "Telephone": "17435886",
+      "Fax": 17449662.0,
+      "Area": "Manama",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "College of Health & Sport Sciences"
+    },
+    {
+      "Telephone": "17285910",
+      "Fax": 17242485.0,
+      "Area": "Manama",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "College of Health Sciences"
+    },
+    {
+      "Telephone": "17438734",
+      "Fax": 16036214.0,
+      "Area": "Zallaq",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "College of Law"
+    },
+    {
+      "Telephone": "32255855",
+      "Fax": "",
+      "Area": "Seef",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "Eton Me University"
+    },
+    {
+      "Telephone": "17222444",
+      "Fax": 17221161.0,
+      "Area": "Manama",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "Euro University of Bahrain City Campus"
+    },
+    {
+      "Telephone": "17620092",
+      "Fax": 17622230.0,
+      "Area": "Sanad",
+      "Email": "info@gulfuniversity.net",
+      "PO Box": 26489.0,
+      "Address": "Building: 1964, Road: 4363, Block: 743, Area: CENTRAL, Governorate: CAPITAL",
+      "Category": "Universities",
+      "Website": "http://www.gulfuniversity.edu.bh",
+      "Universities": "Gulf University "
+    },
+    {
+      "Telephone": "13300001",
+      "Fax": 13300003.0,
+      "Area": "East Riffa",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "Kingdom University"
+    },
+    {
+      "Telephone": "17232377",
+      "Fax": "",
+      "Area": "Zinj",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "NIT - Oracle University"
+    },
+    {
+      "Telephone": "17351450",
+      "Fax": 17330906.0,
+      "Area": "Muharraq",
+      "Email": "info@rcsi-mub.com",
+      "PO Box": 15503.0,
+      "Address": "Building: 2441, Road: 2835, Block: 228, Area: MUHARAQ, Governorate: MUHARRAQ",
+      "Category": "Universities",
+      "Website": "http://www.rcsi-mub.com",
+      "Universities": "Royal College of Surgeons in Ireland - Bahrain"
+    },
+    {
+      "Telephone": "17764444",
+      "Fax": 17764445.0,
+      "Area": "Riffa",
+      "Email": "info@ruw.edu.bh",
+      "PO Box": 37400.0,
+      "Address": "Building: 366, Road: ALMUASKAR AVE, Block: 942, Area: RIFAA, Governorate: SOUTHERN",
+      "Category": "Universities",
+      "Website": "http://www.ruw.edu.bh",
+      "Universities": "Royal University For Women "
+    },
+    {
+      "Telephone": "17383000",
+      "Fax": 17383001.0,
+      "Area": "Manama",
+      "Email": "info@tagucb.edu.bh",
+      "PO Box": 990.0,
+      "Address": "Building: 1002, Road: 5121, Block: 351, Area: MANAMA, Governorate: CAPITAL",
+      "Category": "Universities",
+      "Website": "www.tagucb.edu.bh",
+      "Universities": "Talal Abu Ghazzleh University College Of Business"
+    },
+    {
+      "Telephone": "13300001",
+      "Fax": 17271001.0,
+      "Area": "Riffa",
+      "Email": "info@ku.edu.bh",
+      "PO Box": 40434.0,
+      "Address": "Building: 296, Road: 3903, Block: 939, Area: RIFAA, Governorate: SOUTHERN",
+      "Category": "Universities",
+      "Website": "http://www.ku.edu.bh",
+      "Universities": "The Kingdom University "
+    },
+    {
+      "Telephone": "17790828",
+      "Fax": 17793828.0,
+      "Area": "Saar",
+      "Email": "info_mail@ucb.edu.bh",
+      "PO Box": 55040.0,
+      "Address": "Road: 2314",
+      "Category": "Universities",
+      "Website": "http://www.ucb.edu.bh",
+      "Universities": "University College Of Bahrain "
+    },
+    {
+      "Telephone": "17438888",
+      "Fax": 17449999.0,
+      "Area": "Sakheer",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "University of Bahrain"
+    },
+    {
+      "Telephone": "17787978",
+      "Fax": 17879380.0,
+      "Area": "Salmabad",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "University of Technology Bahrain"
+    },
+    {
+      "Telephone": "17764272",
+      "Fax": "",
+      "Area": "Riffa",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "West Virginia University - Bahrain Campus"
+    },
+    {
+      "Telephone": "17437717",
+      "Fax": "",
+      "Area": "Zallaq",
+      "Email": "",
+      "PO Box": "",
+      "Address": "",
+      "Category": "Universities",
+      "Website": "",
+      "Universities": "Zain e-Learning Centre - University of Bahrain"
+    }
+  ]
+}
