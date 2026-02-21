@@ -15,9 +15,13 @@ export async function GET() {
                 read: c.isRead,
             }))
         );
-    } catch (error) {
+    } catch (error: any) {
         console.error('GET /api/contacts error:', error);
-        return NextResponse.json({ error: 'Failed to fetch contacts' }, { status: 500 });
+        if (error.code) console.error('Error code:', error.code);
+        return NextResponse.json({
+            error: 'Failed to fetch contacts',
+            details: process.env.NODE_ENV === 'development' ? error.message : undefined
+        }, { status: 500 });
     }
 }
 
@@ -34,8 +38,12 @@ export async function POST(request: NextRequest) {
             { ...contact, date: contact.createdAt.toISOString(), read: contact.isRead },
             { status: 201 }
         );
-    } catch (error) {
+    } catch (error: any) {
         console.error('POST /api/contacts error:', error);
-        return NextResponse.json({ error: 'Failed to submit contact' }, { status: 500 });
+        if (error.code) console.error('Error code:', error.code);
+        return NextResponse.json({
+            error: 'Failed to submit contact',
+            details: process.env.NODE_ENV === 'development' ? error.message : undefined
+        }, { status: 500 });
     }
 }

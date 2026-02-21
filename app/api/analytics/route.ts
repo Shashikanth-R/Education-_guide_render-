@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import prisma from '@/lib/db';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/analytics
 export async function GET() {
     try {
@@ -40,8 +42,12 @@ export async function GET() {
             popularCategories,
             trendingBusinesses,
         });
-    } catch (error) {
+    } catch (error: any) {
         console.error('GET /api/analytics error:', error);
-        return NextResponse.json({ error: 'Failed to fetch analytics' }, { status: 500 });
+        if (error.code) console.error('Error code:', error.code);
+        return NextResponse.json({
+            error: 'Failed to fetch analytics',
+            details: process.env.NODE_ENV === 'development' ? error.message : undefined
+        }, { status: 500 });
     }
 }

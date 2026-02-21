@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/db';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/businesses — fetch all businesses with optional filters
 export async function GET(request: NextRequest) {
     try {
@@ -45,9 +47,16 @@ export async function GET(request: NextRequest) {
         }));
 
         return NextResponse.json(parsed);
-    } catch (error) {
+    } catch (error: any) {
         console.error('GET /api/businesses error:', error);
-        return NextResponse.json({ error: 'Failed to fetch businesses' }, { status: 500 });
+        // Log more details if it's a Prisma error
+        if (error.code) console.error('Error code:', error.code);
+        if (error.meta) console.error('Error meta:', error.meta);
+
+        return NextResponse.json({
+            error: 'Failed to fetch businesses',
+            details: process.env.NODE_ENV === 'development' ? error.message : undefined
+        }, { status: 500 });
     }
 }
 
@@ -88,8 +97,13 @@ export async function POST(request: NextRequest) {
             location: { latitude: business.latitude, longitude: business.longitude, city: business.city },
             createdAt: business.createdAt.toISOString(),
         }, { status: 201 });
-    } catch (error) {
+    } catch (error: any) {
         console.error('POST /api/businesses error:', error);
-        return NextResponse.json({ error: 'Failed to create business' }, { status: 500 });
+        if (error.code) console.error('Error code:', error.code);
+
+        return NextResponse.json({
+            error: 'Failed to create business',
+            details: process.env.NODE_ENV === 'development' ? error.message : undefined
+        }, { status: 500 });
     }
 }

@@ -14,13 +14,22 @@ export default function Home() {
     const [location, setLocation] = useState('');
     const categories = CATEGORIES;
     const [trendingBusinesses, setTrendingBusinesses] = useState<Business[]>([]);
+    const [loadingTrending, setLoadingTrending] = useState(true);
+    const [errorTrending, setErrorTrending] = useState(false);
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
         setMounted(true);
+        setLoadingTrending(true);
+        setErrorTrending(false);
         getAnalytics().then(analytics => {
             setTrendingBusinesses((analytics.trendingBusinesses || []).slice(0, 6));
-        }).catch(() => { });
+        }).catch((err) => {
+            console.error('Failed to load trending businesses:', err);
+            setErrorTrending(true);
+        }).finally(() => {
+            setLoadingTrending(false);
+        });
     }, []);
 
     const handleSearch = () => {
@@ -211,44 +220,61 @@ export default function Home() {
                         <h2 className="text-3xl font-bold text-gray-800">Top Rated Schools</h2>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {trendingBusinesses.map((business) => (
-                            <Link
-                                key={business.id}
-                                href={`/business/${business.id}`}
-                                className="bg-white rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300 overflow-hidden group"
-                            >
-                                <div className="h-48 relative overflow-hidden">
-                                    {business.coverImage ? (
-                                        <img
-                                            src={business.coverImage}
-                                            alt={business.name}
-                                            className="w-full h-full object-cover"
-                                        />
-                                    ) : (
-                                        <div className="w-full h-full bg-gradient-to-br from-pastel-peach via-pastel-yellow to-pastel-mint" />
-                                    )}
-                                    {business.verified && (
-                                        <div className="absolute top-3 right-3 bg-green-500 text-white px-3 py-1 rounded-full text-xs font-semibold flex items-center">
-                                            ✓ Verified
-                                        </div>
-                                    )}
-                                </div>
-                                <div className="p-5">
-                                    <h3 className="font-bold text-lg text-gray-800 mb-2 group-hover:text-blue-600 transition">
-                                        {business.name}
-                                    </h3>
-                                    <p className="text-gray-600 text-sm mb-3 line-clamp-2">{business.description}</p>
-                                    <div className="flex items-center justify-between">
-                                        <div className="flex items-center">
-                                            <Star className="w-4 h-4 text-yellow-400 fill-current mr-1" />
-                                            <span className="font-semibold text-gray-700">{business.rating}</span>
-                                            <span className="text-gray-500 text-sm ml-1">({business.reviewCount})</span>
-                                        </div>
-                                        <span className="text-blue-600 text-sm font-medium">{business.priceRange}</span>
+                        {loadingTrending ? (
+                            // Loading Skeletons
+                            [...Array(3)].map((_, i) => (
+                                <div key={i} className="bg-white rounded-xl shadow-md h-80 animate-pulse" />
+                            ))
+                        ) : errorTrending ? (
+                            <div className="col-span-full bg-red-50 border border-red-200 text-red-700 px-6 py-8 rounded-xl text-center">
+                                <p className="text-lg font-medium mb-2">Unable to load institutions</p>
+                                <p className="text-sm opacity-75">There was a problem connecting to the database. Please try again later.</p>
+                            </div>
+                        ) : trendingBusinesses.length > 0 ? (
+                            trendingBusinesses.map((business) => (
+                                <Link
+                                    key={business.id}
+                                    href={`/business/${business.id}`}
+                                    className="bg-white rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300 overflow-hidden group"
+                                >
+                                    <div className="h-48 relative overflow-hidden">
+                                        {business.coverImage ? (
+                                            <img
+                                                src={business.coverImage}
+                                                alt={business.name}
+                                                className="w-full h-full object-cover"
+                                            />
+                                        ) : (
+                                            <div className="w-full h-full bg-gradient-to-br from-pastel-peach via-pastel-yellow to-pastel-mint" />
+                                        )}
+                                        {business.verified && (
+                                            <div className="absolute top-3 right-3 bg-green-500 text-white px-3 py-1 rounded-full text-xs font-semibold flex items-center">
+                                                ✓ Verified
+                                            </div>
+                                        )}
                                     </div>
-                                </div>
-                            </Link>
-                        ))}
+                                    <div className="p-5">
+                                        <h3 className="font-bold text-lg text-gray-800 mb-2 group-hover:text-blue-600 transition">
+                                            {business.name}
+                                        </h3>
+                                        <p className="text-gray-600 text-sm mb-3 line-clamp-2">{business.description}</p>
+                                        <div className="flex items-center justify-between">
+                                            <div className="flex items-center">
+                                                <Star className="w-4 h-4 text-yellow-400 fill-current mr-1" />
+                                                <span className="font-semibold text-gray-700">{business.rating}</span>
+                                                <span className="text-gray-500 text-sm ml-1">({business.reviewCount})</span>
+                                            </div>
+                                            <span className="text-blue-600 text-sm font-medium">{business.priceRange}</span>
+                                        </div>
+                                    </div>
+                                </Link>
+                            ))
+                        ) : (
+                            <div className="col-span-full bg-blue-50 border border-blue-200 text-blue-700 px-6 py-8 rounded-xl text-center">
+                                <p className="text-lg font-medium">No institutions found</p>
+                                <p className="text-sm opacity-75">Check back later for new listings.</p>
+                            </div>
+                        )}
                     </div>
                 </div>
             </section>
