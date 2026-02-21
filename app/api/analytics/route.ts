@@ -47,7 +47,7 @@ export async function GET() {
         if (error.code) console.error('Error code:', error.code);
         return NextResponse.json({
             error: 'Failed to fetch analytics',
-            details: process.env.NODE_ENV === 'development' ? error.message : undefined
+            details: error.message
         }, { status: 500 });
     }
 }

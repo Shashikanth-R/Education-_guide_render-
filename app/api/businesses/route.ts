@@ -55,7 +55,7 @@ export async function GET(request: NextRequest) {
 
         return NextResponse.json({
             error: 'Failed to fetch businesses',
-            details: process.env.NODE_ENV === 'development' ? error.message : undefined
+            details: error.message
         }, { status: 500 });
     }
 }
@@ -103,7 +103,7 @@ export async function POST(request: NextRequest) {
 
         return NextResponse.json({
             error: 'Failed to create business',
-            details: process.env.NODE_ENV === 'development' ? error.message : undefined
+            details: error.message
         }, { status: 500 });
     }
 }

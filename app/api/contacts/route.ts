@@ -20,7 +20,7 @@ export async function GET() {
         if (error.code) console.error('Error code:', error.code);
         return NextResponse.json({
             error: 'Failed to fetch contacts',
-            details: process.env.NODE_ENV === 'development' ? error.message : undefined
+            details: error.message
         }, { status: 500 });
     }
 }
@@ -43,7 +43,7 @@ export async function POST(request: NextRequest) {
         if (error.code) console.error('Error code:', error.code);
         return NextResponse.json({
             error: 'Failed to submit contact',
-            details: process.env.NODE_ENV === 'development' ? error.message : undefined
+            details: error.message
         }, { status: 500 });
     }
 }

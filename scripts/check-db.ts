@@ -13,13 +13,25 @@ async function main() {
         console.log('✅ Connection successful!');
         console.log(`Successfully queried ${count} businesses.`);
 
-        console.log('\nFetching sample business...');
-        const first = await prisma.business.findFirst();
-        if (first) {
-            console.log('Sample data found:', first.name);
-        } else {
-            console.log('No data found in "businesses" table.');
-        }
+        console.log('\nFetching sample businesses to verify JSON parsing...');
+        const samples = await prisma.business.findMany({ take: 5 });
+        samples.forEach((b, i) => {
+            console.log(`\nBusiness ${i + 1}: ${b.name}`);
+            try {
+                const images = JSON.parse(b.images || '[]');
+                console.log(`- Images parsed successfully (${images.length} items)`);
+            } catch (e: any) {
+                console.error(`- ❌ Image JSON Parse Error: ${e.message}`);
+                console.log(`  Raw images: ${b.images}`);
+            }
+            try {
+                const hours = JSON.parse(b.workingHours || '[]');
+                console.log(`- WorkingHours parsed successfully (${hours.length} items)`);
+            } catch (e: any) {
+                console.error(`- ❌ WorkingHours JSON Parse Error: ${e.message}`);
+                console.log(`  Raw hours: ${b.workingHours}`);
+            }
+        });
 
         console.log('\nAttempting to create a test contact submission...');
         const testContact = await prisma.contactSubmission.create({
