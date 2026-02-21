@@ -11,30 +11,28 @@ const BASE = '';
 // ─── Businesses ────────────────────────────────────────────────────────────
 
 export async function getAllBusinesses(): Promise<Business[]> {
-    try {
-        const res = await fetch(`${BASE}/api/businesses`);
-        if (!res.ok) return [];
-        return res.json();
-    } catch {
-        return [];
+    const res = await fetch(`${BASE}/api/businesses`);
+    if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.details || data.error || 'Failed to fetch businesses');
     }
+    return res.json();
 }
 
 export async function searchBusinesses(filters: SearchFilters): Promise<Business[]> {
-    try {
-        const params = new URLSearchParams();
-        if (filters.query) params.set('query', filters.query);
-        if (filters.category) params.set('category', filters.category);
-        if (filters.location) params.set('location', filters.location);
-        if (filters.rating) params.set('rating', filters.rating.toString());
-        if (filters.priceRange) params.set('priceRange', filters.priceRange);
+    const params = new URLSearchParams();
+    if (filters.query) params.set('query', filters.query);
+    if (filters.category) params.set('category', filters.category);
+    if (filters.location) params.set('location', filters.location);
+    if (filters.rating) params.set('rating', filters.rating.toString());
+    if (filters.priceRange) params.set('priceRange', filters.priceRange);
 
-        const res = await fetch(`${BASE}/api/businesses?${params.toString()}`);
-        if (!res.ok) return [];
-        return res.json();
-    } catch {
-        return [];
+    const res = await fetch(`${BASE}/api/businesses?${params.toString()}`);
+    if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.details || data.error || 'Failed to search businesses');
     }
+    return res.json();
 }
 
 export async function getBusinessById(id: string): Promise<Business | null> {
@@ -129,7 +127,12 @@ export async function addContact(
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(contact),
     });
-    if (!res.ok) throw new Error('Failed to submit contact');
+
+    if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.details || data.error || 'Failed to submit contact');
+    }
+
     return res.json();
 }
 
@@ -145,13 +148,12 @@ export async function deleteContact(id: string): Promise<boolean> {
 // ─── Analytics ──────────────────────────────────────────────────────────────
 
 export async function getAnalytics(): Promise<Analytics> {
-    try {
-        const res = await fetch(`${BASE}/api/analytics`);
-        if (!res.ok) return { totalBusinesses: 0, totalReviews: 0, totalContacts: 0, popularCategories: [], trendingBusinesses: [] } as any;
-        return res.json();
-    } catch {
-        return { totalBusinesses: 0, totalReviews: 0, totalContacts: 0, popularCategories: [], trendingBusinesses: [] } as any;
+    const res = await fetch(`${BASE}/api/analytics`);
+    if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.details || data.error || 'Failed to fetch analytics');
     }
+    return res.json();
 }
 
 // ─── Favorites (kept in localStorage — user-specific) ──────────────────────

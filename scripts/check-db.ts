@@ -21,6 +21,23 @@ async function main() {
             console.log('No data found in "businesses" table.');
         }
 
+        console.log('\nAttempting to create a test contact submission...');
+        const testContact = await prisma.contactSubmission.create({
+            data: {
+                name: 'Test Diagnostic',
+                email: 'test@example.com',
+                subject: 'Diagnostic Check',
+                message: 'This is a test message from the diagnostic script.',
+            },
+        });
+        console.log('✅ Contact creation successful! ID:', testContact.id);
+
+        console.log('\nDeleting the test contact submission...');
+        await prisma.contactSubmission.delete({
+            where: { id: testContact.id },
+        });
+        console.log('✅ Test contact deleted.');
+
     } catch (error: any) {
         console.error('\n❌ Connection failed!');
         console.error('Error Name:', error.name);
